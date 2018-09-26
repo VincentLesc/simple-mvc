@@ -1,0 +1,15 @@
+{
+    "name": "vince/simple-mvc",
+    "authors": [
+        {
+            "name": "vincent LES",
+            "email": "vincent.leschaeve@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "" : "src/"
+        }
+    }
+}

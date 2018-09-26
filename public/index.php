@@ -1,5 +1,8 @@
 <?php
+require __DIR__ . '/../vendor/autoload.php';
+use Controller\ItemController;
+$index = new ItemController();
+$index->index();
 
-require __DIR__ . '/../src/Controller/ItemController.php';
 
 ?>
