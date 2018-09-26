@@ -13,11 +13,13 @@ class ItemController{
 
     public function index()
     {
+        $items = new ItemManager();
+        $items = $items->selectAllItems();
 
+        require __DIR__ . '/../View/item.php';
+
+        return $items;
     }
 }
 
-$items = new ItemManager();
-$items = $items->selectAllItems();
 
-require __DIR__ . '/../View/item.php';
