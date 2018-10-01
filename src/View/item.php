@@ -9,7 +9,7 @@
                 <a href="item/<?= $item['id']?>"><li><?= $item['title'] ?></li></a>
             <?php endforeach ?>
             </ul>
-        <a href="category">View all the categories</a>
+        <a href="categories">View all the categories</a>
         </section>
 </body>
 </html>

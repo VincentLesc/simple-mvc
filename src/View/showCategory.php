@@ -7,7 +7,7 @@
     <ul>
         <li>Id : <?= $cat['id'] ?></li>
     </ul>
-    <a href='/category'>Back to list</a>
+    <a href='/categories'>Back to list</a>
     <br/>
     <a href="/">Back to the items list</a>
 </main>

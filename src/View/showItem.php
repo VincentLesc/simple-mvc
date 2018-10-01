@@ -9,7 +9,7 @@
     </ul>
     <a href='/'>Back to items list</a>
     <br/>
-    <a href="/category">Go to the categories list</a>
+    <a href="/categories">Go to the categories list</a>
 </main>
 </body>
 </html>
