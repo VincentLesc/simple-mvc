@@ -15,10 +15,7 @@ class ItemController{
     {
         $items = new ItemManager();
         $items = $items->selectAllItems();
-
         require __DIR__ . '/../View/item.php';
-
-        return $items;
     }
 }
 
